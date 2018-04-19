@@ -3,7 +3,7 @@ package roberto.sistemabanco.br;
 import java.util.Scanner;
 
 public class Banco extends ContaBancaria{
-
+//Modificado agora
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner (System.in);
 		//Criando uma variável de referência da classe CONTABANCARIA
@@ -50,7 +50,7 @@ public class Banco extends ContaBancaria{
 					
 				//EXTRATO DA CONTA	
 				case 3:
-					System.out.println("\nSaldo Atual "+cb.getExtrato());
+					System.out.println("\nSaldo Atual "+cb.getExtrato()+"\n\n");
 					break;									
 					
 				case 4:

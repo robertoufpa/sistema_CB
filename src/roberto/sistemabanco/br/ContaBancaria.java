@@ -8,7 +8,7 @@ public class ContaBancaria {
 	
 	//Metododo que só deposita valor
 	public void setDepositadoValor (int quant) {
-		this.quantiaAtual = + quant;		
+		this.quantiaAtual += quant;		
 	}
 	//mostra quanto quantia atual
 	public int getExtrato () {
